@@ -108,6 +108,62 @@ button:hover {
   background-color: #3949ab;
 }
 
+.participants-section {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #ddd;
+}
+
+.participants-section p {
+  margin: 0 0 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.participants-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  color: #444;
+}
+
+.participants-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  padding: 6px 8px;
+  background-color: #fafafa;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
+.participants-list li span {
+  font-weight: 500;
+}
+
+.remove-participant {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-weight: bold;
+  line-height: 1;
+  padding: 0 6px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.remove-participant:hover {
+  background-color: rgba(198, 40, 40, 0.1);
+}
+
+.no-participants {
+  margin: 0;
+  font-style: italic;
+  color: #777;
+}
+
 .message {
   margin-top: 20px;
   padding: 10px;
